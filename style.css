@@ -1,0 +1,47 @@
+body{
+    background-color: aquamarine;
+}
+.image{
+    height: 70px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 41%;
+}
+.formLabel{
+    width: 100px;
+}
+h2{
+    color: blue;
+    text-align: center;
+    height: 55px;
+    padding-top: 10px;
+}
+.head{
+    margin: 0px;
+    padding: 0px;
+}
+input[type="button"]{
+    background-color: rgb(58, 20, 250);
+    color: white;
+    width: 100px;
+    height: 40px;
+}
+input[type="text"],input[type="email"]{
+    height: 40px;
+    width: 50%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.gender,.skill,h3{
+    margin-bottom: 20px;
+}
+.radio-label{
+    font-weight: normal;
+}
+.main{
+    margin: 20px;
+}
+.error::placeholder{
+    color: rgb(60, 0, 255);
+}
